@@ -87,5 +87,5 @@ type NodeTemplate struct {
 
 	// +optional
 	// CPU Architecture of the node belonging to nodeGroup
-	Architecture *string `json:"architecture,omitempty"`
+	Architecture *string `json:"architecture"`
 }
